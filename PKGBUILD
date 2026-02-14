@@ -65,6 +65,7 @@ if [[ ! -v "_fceux" ]]; then
     _fceux="true"
   fi
 fi
+
 _zpaq_archiver="lrzip"
 _emulators=()
 if [[ "${_retroarch}" == "true" ]]; then
@@ -167,7 +168,7 @@ _network="56"
 _network="100"
 _pic_network="${_network}"
 # ethereum
-_network="1"
+# _network="1"
 _sig_network="${_network}"
 # File system addresses
 _fs=(
